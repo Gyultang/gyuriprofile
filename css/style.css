@@ -1,0 +1,171 @@
+#wrap{width: 100%;}
+
+#head {
+    width: 100%;
+    height: 120px;
+    z-index: 9999;
+}
+#head .head_m {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+#head .head_m > img {
+    width: 50px;
+    height: 50px;
+}
+#head .head_m > a{
+    margin: 0;
+}
+#head .head_m > nav {
+    margin: 0;
+}
+#head .head_m ul{
+
+}
+#head .head_m ul li{
+    float: left;
+    padding-right: 70px;
+}
+#head .head_m ul li a{
+    font-size: 20px;
+    color: #707070;
+}
+
+
+/* 메인 */
+#main{
+    width: 100%; height: 1080px;
+    background: url(../images/main_img.png) repeat 0 0;
+    background-size: 100%;
+}
+#main div{
+    width: 1200px;
+    height: 500px;
+    padding-top: 390px;
+}
+#main div > p{
+    padding-right: 50px;
+    display: flex;
+    justify-content: right;
+    font-size: 28px;
+    color: #fff;
+}
+#main div > span{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: #fff;
+}
+
+
+/* 소개 */
+#about{
+    width: 100%; height: 1080px;
+    background-color: cornflowerblue;
+    padding-top: 160px;
+}
+#about .about_in{
+    width: 1200px;
+    height: 1080px;
+}
+#about .about_in > p{
+    font-size: 50px;
+    color: #707070;
+    padding-bottom: 40px;
+}
+#about .about_in .about_t{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(93, 93, 156);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about .about_in .about_t .img{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(68, 158, 80);
+    margin: 0;
+}
+#about .about_in .about_t span{
+    display: block;
+    width: 650px;
+    height: 700px;
+    background-color: cadetblue;
+    margin: 0;
+}
+
+/* 스킬 */
+#skill{
+    width: 100%; height: 1080px;
+    background-color: rgb(152, 100, 237);
+    padding-top: 160px;
+}
+#skill .skill_in{
+    width: 1200px;
+    height: 1080px;
+}
+#skill .skill_in > p{
+    font-size: 50px;
+    color: #707070;
+    padding-bottom: 40px;
+}
+#skill .skill_in .skill_t{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* 프로젝트 */
+#project{
+    width: 100%; height: 1080px;
+    background-color: rgb(237, 100, 182);
+    padding-top: 160px;
+}
+#project .project_in{
+    width: 1200px;
+    height: 1080px;
+}
+#project .project_in > p{
+    font-size: 50px;
+    color: #707070;
+    padding-bottom: 40px;
+}
+#project .project_in .project_c{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#project .project_in .project_c > div{
+    width: 330px;
+    height: 550px;
+    background-color: aquamarine;
+}
+
+
+/* 하단(연락) */
+#contact{
+    width: 1200px;
+    height: 420px;
+    background-color: #d6d6d6;
+}
+#contact .contact_in{
+    width: 1200px;
+    height: 300px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact p{
+    font-size: 50px;
+    color: #707070;
+}
+
